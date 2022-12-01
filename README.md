@@ -44,11 +44,13 @@ Elementos:
   entonces esta pagina si cumple con el objetivo.
 
 ## Arquitectura de Informacion
-- Organization System:
-- Labeling System:
-- Navigation System:
-- Searching System:
-
+- Organization System: El sistema de organizacion ambiguo fue utilizado, ya que cada seccion son temas diferentes.
+- Labeling System: Las etiquetas de navegacion son las siguientes: Inicio, Nosotros, Servicios, Precio, Contactanos.
+- Navigation System: 
+  En la barra de navegacion, el usuario se puede dirigir a las secciones Inicio, Nosotros, Servicios, Precio, Contactanos.
+  En el footer, el usuario se puede dirigir a las secciones Inicio, Nosotros, Contactanos.
+- Searching System: No se utilizo barras de busqueda.
+  
 ## Inclusive Design
 - Porporciona experiencias comparables: Con el fin de permitir que todos los usuarios puedan entender la representacion de las imagenes,
   se utilizo el contenido alternativo; es decir, para cada imagen se coloco el texto "alt" que describe correctamente la imagen.
