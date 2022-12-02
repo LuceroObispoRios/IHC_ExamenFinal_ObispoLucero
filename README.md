@@ -3,13 +3,12 @@ Sustentacion del diseño de la pagina en relacion a los segmentos objetivos y ob
 
 ## Principios y elementos de diseño visual
 Principios:
-- Contraste: En la pagina se utilizo el contraste de colores, entre el color negro para el fondo y el color blanco para el texto, y asi 
-  destacar uno de los planes de precio. Asimismo, se utilizo un contraste de forma para destacar ese plan de precio. De hecho el card
-  creado con Bootstrap ha sido modificado en CSS para su tamaño sea mas grande que las otras 2 cards.
+- Contraste: En la pagina se utilizo el contraste de colores, entre el color negro para el fondo y el color blanco para el texto de los 
+  botones, y asi hacerlos mas vistosos para que los usuarios los presionen.
 - Alignment: Por ejemplo, en el footer, se separo la informacion por columnas. Asimismo, los objetos de cada seccion de la pagina estan
   colocados en contenedores div que estan alineadas horizontalmente para que entienda que forman parte de la misma seccion.
-- Repetition: Por ejemplo, para el titulo de clase heading de cada seccion se utilizo un color negro y un tamaño 4rem, asi como un 
-  fondo de un color grisaceo. Otro elemento repetido es el color del texto p que es de un color gris y de tamaño 1.2 rem. Asimismo, los
+- Repetition: Por ejemplo, para el titulo de clase heading de cada seccion se utilizo un color marron oscuro y un tamaño 4rem, asi como un 
+  fondo de un color grisaceo. Otro elemento repetido es el color del texto p que es de un color marron y de tamaño 1.2 rem. Asimismo, los
   botones utilizados son del framework Bootstrap, por lo que tienen el mismo diseño. Otra repetacion mas es el diseño de los iconos, 
   ya que en CSS mediante la clase icono se les coloco un tamaño exacto que es 38px de ancho y alto y una margen 10px y 15px.
 - Proximity: Los elementos dentro de cada seccion estan aproximados; mientras que, cada seccion esta separada por un margen notable de
@@ -18,16 +17,13 @@ Principios:
 Elementos:
 - Lenguaje: El lenguaje utilizado fue claro, conciso y util, ya que no se utilizaron palabras muy tecnicas que complican la comprension
   de la informacion a los usuarios.
-- Color: En los colores del diseño de la pagina, se usaron colores de la escala de grises. Sin embargo, para el footer, se uso el color
-  amarillo para resaltar algunas partes como los apartados principales "Inicio - Nosotros - Contactanos". Tambien para resaltar el
-  correo de contacto, y las redes sociales. Se utilizo este color porque el color negro ya se uso en el fondo y el color blanco para
-  el texto, por lo que se necesitaba de un color extra que contraste bien y llame la atencion de los usuarios.
+- Color: En los colores del diseño de la pagina, se usaron colores marrones de tonos distintos y colores de escala de grises. Es mas, para el footer, se uso el color marron claro para resaltar algunas partes como los apartados principales "Inicio - Nosotros - Contactanos". Tambien para resaltar el correo de contacto, y las redes sociales. Se utilizo este color porque el color negro ya se uso en el fondo y el color blanco para el texto, por lo que se necesitaba de un color extra que contraste bien y llame la atencion de los usuarios.
 - Imagenes: Se utilizaron imagenes para los botones de descarga en google play y app store, asi como para representar mejor la seccion
-  de nosotros y contactanos. En adicion a ello, se agrego una imagen de perfil para los clientes que comentaron sobre nuestra pagina.
+  de nosotros, contactanos y para representar mejor las funcionalidades de la app. En adicion a ello, se agrego una imagen de perfil para los clientes que comentaron sobre nuestra pagina.
 - Iconos: Se utilizaron iconos para las redes sociales porque al ser muy reconocidas estas plataformas, solo bastaria con su
   representacion visual, y de esa forma no escribir el nombre completo de la red social. Los mismo para los iconos de contacto que son
   reconocidos globalmente como mail, telefono y ubicacion.
-- Tipografia: La tipografia que se uso fue Gill Sans, cuya letra no es muy alargada, ni tiene forma cursiva, ni es muy ancha. Por
+- Tipografia: La tipografia que se uso fue Roboto e Inter, cuya letra no es muy alargada, ni tiene forma cursiva, ni es muy ancha. Por
   lo tanto, es un tipo tipografia que considero que es entendible.
   
 ## Heuristicas de Usabilidad
@@ -44,10 +40,10 @@ Elementos:
   entonces esta pagina si cumple con el objetivo.
 
 ## Arquitectura de Informacion
-- Organization System: El sistema de organizacion ambiguo fue utilizado, ya que cada seccion son temas diferentes.
-- Labeling System: Las etiquetas de navegacion son las siguientes: Inicio, Nosotros, Servicios, Precio, Contactanos.
+- Organization System: El sistema de organizacion es separar por secciones contenidos relacionados. Por ejemplo se crearon secciones para las funcionalidades relacionadas de la app, asi como para la seccion inicio, nosotros, contactanos.
+- Labeling System: Las etiquetas de navegacion son las siguientes: Inicio, Nosotros, Producto, Contactanos.
 - Navigation System: 
-  En la barra de navegacion, el usuario se puede dirigir a las secciones Inicio, Nosotros, Servicios, Precio, Contactanos.
+  En la barra de navegacion, el usuario se puede dirigir a las secciones Inicio, Nosotros, Producto, Contactanos.
   En el footer, el usuario se puede dirigir a las secciones Inicio, Nosotros, Contactanos.
 - Searching System: No se utilizo barras de busqueda.
   
